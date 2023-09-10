@@ -12,6 +12,22 @@
             width: 100%;
         }
         
+        *::selection {
+            background-color: #fff;
+            color: #95C11E;
+        }
+        
+        body::-webkit-scrollbar {
+            display: block;
+            background-color: #95C11E;
+            width: 5px;
+        }
+        
+        body::-webkit-scrollbar-thumb {
+            background-color: #fff;
+            border-radius: 50px;
+        }
+        
         #cursor {
             height: 20px;
             width: 20px;
